@@ -1,0 +1,89 @@
+*{
+    list-style-type: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:hsl(216, 12%, 8%) ;
+
+}
+.content{
+    display: none;
+}
+.container2{
+    padding-top: 5px;
+        background-color: hsl(213, 19%, 18%);
+        /* height: 400px; */
+        width: 330px;
+       margin:8em 30em;
+       border-radius: 20px;
+ 
+
+}
+.thank_pic{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center ;
+}
+.select p{
+    margin:10px  40px;
+    padding: 5px;
+    text-align: center;
+    width: 250px;
+    background-color:hsl(210, 11%, 21%) ;
+    /* padding: 10px; */
+    border-radius: 40px;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: hsl(25, 97%, 53%);
+}
+.select p:hover{
+    cursor: pointer;
+
+}
+.thanks h2{
+    color: hsl(0, 0%, 100%);
+    margin:15px  0;
+    text-align: center;
+}
+.thanks p{
+    margin:10px 20px 30px;
+    color:hsl(217, 12%, 63%) ;
+    text-align: center;
+
+}
+.rate_num:hover{
+    background-color: hsl(217, 12%, 63%);
+    cursor: pointer;
+    color: hsl(0, 0%, 100%) ;
+
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    padding-bottom: 15px; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); }
+
+
+
+@media (max-width:375px) {
+    .content{
+    display: none;
+}
+    .container2{
+        background-color: hsl(213, 19%, 18%);
+        display: flex;
+        flex-direction: column;
+        align-self: center; 
+        margin:50px 20px;
+        height:370px;
+        width: 330px;
+    }
+    
+    
+}

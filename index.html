@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+   <link rel="stylesheet" href="thanks.css">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <!-- Rating state start -->
+ 
+
+  <div class="content1">
+    <div class="container">
+
+      <div class="star">
+        <img src="images/icon-star.svg" alt="">
+      </div>
+  
+      <div class="rate">
+        <h2>How did we do?</h2>
+        <p>  Please let us know how we did with your support request. All feedback is appreciated 
+          to help us improve our offering!</p>
+      </div>
+      <div class="rate_range">
+        <div id="num1" class="rate_num" data-set="1" >1</div>
+        <div id="num2" class="rate_num" data-set="2">2</div>
+        <div id="num3" class="rate_num" data-set="3" >3</div>
+        <div id="num4" class="rate_num"  data-set="4">4</div>
+        <div id="num5" class="rate_num"  data-set="5">5</div>
+    </div>
+    
+    <div class="submit" id="submitBtn">
+        <button type="submit">Submit</button>
+    </div>
+    
+  
+  
+      <div class="attribution" ti>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Hydee Bravo</a>.
+      </div>
+    </div>
+  </div>
+
+  <!-- Rating state end -->
+ <div class="content">
+  <div class="container2">
+
+    <div class="thank_pic">
+      <img src="images/illustration-thank-you.svg" alt="">
+    </div>
+
+    <div class="select">
+    <p>You selected <span id="numid"></span> out of 5</p>
+      </div>
+
+    <div class="thanks">
+      <h2>Thank you!</h2>
+      <p>   We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!</p>
+    </div>  
+
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Hydee Bravo</a>.
+    </div>
+  </div>
+ </div>
+  <script src="main.js"></script>
+
+  
+
+
+  
+
+</body>
+</html>

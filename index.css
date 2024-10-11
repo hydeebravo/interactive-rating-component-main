@@ -1,0 +1,96 @@
+*{
+    list-style-type: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:hsl(216, 12%, 8%) ;
+
+}
+.container{
+    padding-top: 5px;
+    background-color: hsl(213, 19%, 18%);
+    height: 400px;
+    width: 370px;
+    margin:8em 30em;
+    border-radius: 20px;
+ }
+.star{
+    background:hsl(210, 11%, 21%);
+    margin: 20px;
+    height: 40px ;
+    width: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center ;
+    border-radius: 50%;
+}
+h2{
+    color: hsl(0, 0%, 100%);
+    margin:0 20px 10px;
+}
+.rate p{
+    margin:10px 20px 30px;
+    color:hsl(217, 12%, 63%) ;
+
+}
+.rate_range{
+    margin:0  20px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.rate_num{
+    background:hsl(210, 11%, 21%);
+    height: 40px ;
+    width: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center ;
+    border-radius: 50%;
+    color:hsl(216, 21%, 76%) ;
+
+}
+.rate_num:hover{
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+    color: hsl(0, 0%, 100%) ;
+
+}
+.submit button{
+    margin:0px 20px 30px;
+    text-align: center;
+    width: 90%;
+    background-color:hsl(25, 97%, 53%) ;
+    padding: 10px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    border: 0;
+    outline: 0; 
+    letter-spacing: 2px;
+    color: hsl(0, 0%, 100%);
+}
+.submit button:hover{
+    background-color:hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+
+}
+
+
+@media (max-width:375px) {
+    .container{
+        background-color: hsl(213, 19%, 18%);
+        display: flex;
+        flex-direction: column;
+        align-self: center; 
+        margin:50px 20px;
+        height:350px;
+        width: 330px;
+    }
+    
+}
